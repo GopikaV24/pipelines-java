@@ -16,6 +16,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+	
+<repository>
+  <id>sample</id>
+  <url>https://pkgs.dev.azure.com/GOPIKAVIJAYAKUMAR/8c86ee18-29d1-4d2e-b085-55550130a6f9/_packaging/sample/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
 
   <build>
     <finalName>helloworld</finalName>
